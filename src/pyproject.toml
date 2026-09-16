@@ -1,0 +1,13 @@
+[project]
+name = "ai-cs-copilot"
+version = "0.1.0"
+description = "Enterprise AI Customer Service Assistant for E-Commerce"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pytest>=8.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
